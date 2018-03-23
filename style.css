@@ -1,0 +1,114 @@
+﻿header /*en-tête*/
+{
+background-image:url("vancouver.jpg");  /*image de fond*/
+background-position:bottom;             /*position de l'image basse*/
+color:white;   							/*couleur du texte en blanc*/
+font-size:25px;     					/*taille de l'écriture*/
+text-align: center;						/*texte placer au centre*/
+border:2px solid black;					/*en-tête avec une bordure noir épaisseur 2px*/
+width:100vw;							/*longeur de 100%*/
+height:200px;							/*hauteur de 200px*/
+margin-top:-10px;						/*placement du haut de l'en-tête*/
+margin-left:-10px;						/*placement de la marge gauche de l'en-tête*/
+background-repeat: no-repeat;			/*image de fond pas repétée*/
+background-size: 120%;					/*iamge zoomer a 120%*/
+z-index: -1; 							/*placement de l'image derriere le texte*/
+}	
+
+section
+{
+background-color: white;				/*couleur de fons blanche*/
+border: 2px solid black; 				/*bordure continue d'épaisseur 2px*/
+width: 75vw;							/*longeur des sections*/
+height:370px;							/*hauteur des sections*/	
+margin-left:20vw;						/*marge à gauche*/
+margin-top:-50px;						/*marge du haut*/
+}
+
+body
+{
+background-color: white;				/*couleur du fond blanc*/
+font-family: "Georgia", Trebuchet;		/*style d'écriture*/
+color: gray;							/*couleur de défaut gris*/
+}
+
+aside
+{
+float: right;							/*placement à droite*/
+width: 25vw;							/*longueur de 25%*/
+margin-top:-10px;						/*marge en haut*/
+}
+
+nav /*navigation*/
+{ 
+background-color: rgb(159,99,70);		/*couleur de fond écrit en fonction des RGB*/
+float: left;							/*placement à gauche*/
+width: 17%;								/*longueur de 17%*/
+margin-top: 5%;							/*marge en haut*/
+color: white;							/*couleur écriture*/
+} 
+
+ul /*lien*/
+{
+margin: 0;								/*pas de marge*/
+padding: 0;								/*pas de parametre par défaut*/
+list-style-type:none;					/*pas les points qui s'affiche*/
+}
+
+li a 
+{
+display: block;							/*affichage par block*/
+color:rgb(159,99,70);					/*couleur de fond*/
+padding: 8px 16px;						/*taille des blocks*/
+
+}
+
+img /*image*/
+{
+width:90%								/*image afficher a 90% de l'espace*/
+}
+
+
+h3 /*texte importance 3*/
+ {
+text-align: center; 					/*placement centré*/
+ }
+ 
+nav li
+{
+margin-left : 5px						/*marge de 5px*/
+}
+
+nav ul
+{
+list-style-type: square;				/*style*/
+}
+
+ 
+ 
+
+a:link  								/* Affichage par défaut des liens */
+{
+color: gray;							/*couleur texte*/
+text-decoration: none;					/* pas de surlignage */
+}
+ 
+a:visited   							/*Quand le lien a déjà été parcouru */
+{
+color: black;							/*couleur texte*/
+}
+
+a:hover   								/*Quand le lien est survolé à la souris */
+{
+color: black;							/*couleur texte*/
+background-color: silver;				/*couleur de fond*/
+}
+a:active								/*Quand le lien a déja été utilisé*/
+{
+background-color: silver;				/*couleur du fond*/
+}	
+
+
+
+
+
